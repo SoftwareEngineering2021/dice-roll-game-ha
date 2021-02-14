@@ -125,6 +125,10 @@ function restart(){ // function to restart the game.
     document.getElementById("round-score-2").innerHTML = "0";
     document.getElementById("global-score-1").innerHTML = "0";
     document.getElementById("round-score-1").innerHTML = "0";
+    document.getElementById("rolled").innerHTML = "0";
+    playerOneSelectedStyle();
+
+    playersTurn = 0;
 }
 
 
