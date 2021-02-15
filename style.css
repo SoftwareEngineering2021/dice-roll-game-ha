@@ -81,3 +81,7 @@ p {
 #player-1-style, #rolled {
     color: red;
 }
+
+.scores {
+    color: rgb(84, 219, 84);
+}
